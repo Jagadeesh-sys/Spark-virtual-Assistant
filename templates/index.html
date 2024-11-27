@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARK - Virtual Assistant</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/img_1.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <section class="answer-container">
+            <button class="copy-btn" aria-label="Copy text">
+                <i class="fas fa-copy"></i>
+            </button>
+            <div id="response-image">
+                <img src="" alt="Response Image" id="response-img">
+            </div>
+            <div id="response-text" class="answer-text"></div>
+        </section>
+        <main class="main">
+            <section class="image-container">
+                <div class="image">
+                    <img src="{{ url_for('static', filename='images/giphy2.gif') }}" alt="SPARK Assistant">
+                </div>
+                <h1>S P A R K</h1>
+                <p>I am a Virtual Assistant SPARK, How may I help you?</p>
+            </section>
+            <section class="input">
+                <button class="talk" onclick="startRecognition()" aria-label="Start voice recognition">
+                    <i class="fas fa-microphone-alt"></i>
+                </button>
+                <h1 class="content">Click here to speak</h1>
+            </section>
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
