@@ -13,11 +13,11 @@ from serpapi import GoogleSearch
 app = Flask(__name__)
 
 # Set your API keys
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDYADZV6xIY9wjujhqR0iZ5P4vgy8dZUlY"
-os.environ["OPENWEATHERMAP_API_KEY"] = "65a0b3f779fe75e4930a29b3a2f1f186"
+os.environ["GOOGLE_API_KEY"] = "Enter Your apikey"
+os.environ["OPENWEATHERMAP_API_KEY"] = "Enter Your apikey"
 os.environ["ALPHA_VANTAGE_API_KEY"] = "QHWOM39HU20P7HL7"
-os.environ["SERPAPI_API_KEY"] = "47fcad93da2d7dd41a2abf4006d117e11dc589778f2be01559c9fc3739073d0a"
-os.environ["TMDB_API_KEY"] = "944a7bf6abee8ab7c8dbe4359e828bd5"
+os.environ["SERPAPI_API_KEY"] = "Enter Your apikey"
+os.environ["TMDB_API_KEY"] = "Enter Your apikey"
 
 # Configure the SDK
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
