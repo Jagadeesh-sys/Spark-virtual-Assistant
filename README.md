@@ -7,3 +7,4 @@ Gemini API Key Creation: Automates the generation of API keys for Gemini AI.
 SerpAPI Integration: Seamlessly fetches and displays images based on user input.
 User-Friendly Interface: Easy-to-navigate interface built with Flask.
 Real-Time Responses: Powered by advanced AI models for instant assistance.
+![Uploading Screenshot (144).png…]()
