@@ -15,7 +15,7 @@ app = Flask(__name__)
 # Set your API keys
 os.environ["GOOGLE_API_KEY"] = "Enter Your apikey"
 os.environ["OPENWEATHERMAP_API_KEY"] = "Enter Your apikey"
-os.environ["ALPHA_VANTAGE_API_KEY"] = "QHWOM39HU20P7HL7"
+os.environ["ALPHA_VANTAGE_API_KEY"] = "Enter Your apikey"
 os.environ["SERPAPI_API_KEY"] = "Enter Your apikey"
 os.environ["TMDB_API_KEY"] = "Enter Your apikey"
 
